@@ -210,11 +210,13 @@ UTF32Char getDefaultStyle(unichar ch) {
     } else if (ch == '.') {
         // . is treated as a number in our code, but it doesn't change fonts.
         return ch;
-    } else {
-        @throw [NSException exceptionWithName:@"IllegalCharacter"
-                                       reason:[NSString stringWithFormat:@"Unknown character %d for default style.", ch]
-                                     userInfo:nil];
     }
+//    else {
+////        @throw [NSException exceptionWithName:@"IllegalCharacter"
+////                                       reason:[NSString stringWithFormat:@"Unknown character %d for default style.", ch]
+////                                     userInfo:nil];
+//        return ch;
+//    }
     return ch;
 }
 
