@@ -1,4 +1,4 @@
-# iosMath
+# iosMath Updated With Unicdoe // Check in the MTMathAtomFactory
 
 [![Build Status](http://img.shields.io/travis/kostub/iosMath.svg?style=flat)](https://travis-ci.org/kostub/iosMath)
 [![Version](https://img.shields.io/cocoapods/v/iosMath.svg?style=flat)](http://cocoapods.org/pods/iosMath)
