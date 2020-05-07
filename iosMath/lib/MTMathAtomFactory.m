@@ -526,6 +526,8 @@ NSString *const MTSymbolDegree = @"\u00B0"; // \circ
                      @"Bigl"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
                      @"biggl"                  : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
                      @"bigl"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
+                     @"Big"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
+                     @"big"                  : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
                      @"bmod"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@"\u00a0mod\u00a0"],
                      @"pmod"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@"\u00a0mod\u00a0"],
                      
