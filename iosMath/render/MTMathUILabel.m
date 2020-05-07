@@ -116,7 +116,7 @@
     if (error) {
         _mathList = nil;
         _error = error;
-        _errorLabel.text = error.localizedDescription;
+        _errorLabel.text = @"LaTeX syntax error";
         _errorLabel.frame = self.bounds;
         _errorLabel.hidden = !self.displayErrorInline;
     } else {
