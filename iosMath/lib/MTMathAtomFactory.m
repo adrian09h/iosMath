@@ -526,6 +526,8 @@ NSString *const MTSymbolDegree = @"\u00B0"; // \circ
                      @"Bigl"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
                      @"biggl"                  : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
                      @"bigl"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@""],
+                     @"bmod"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@"\u00a0mod\u00a0"],
+                     @"pmod"                   : [MTMathAtom atomWithType:kMTMathAtomRelation value:@"\u00a0mod\u00a0"],
                      
                       // Arrow and Releation
                      @"Bumpeq"                  : [MTMathAtom atomWithType:kMTMathAtomRelation value:@"\u224e"],
@@ -1220,7 +1222,6 @@ NSString *const MTSymbolDegree = @"\u00B0"; // \circ
             @"widetilde"           :@"\u0303",
             @"overbrace"           :@"\u23de",
             @"wideparen"           :@"\u23dc",
-            @"bmod"                :@"\u00a0mod\u00a0"
         };
     }
     return accents;
